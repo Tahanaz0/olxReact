@@ -24,7 +24,7 @@ function App() {
       <img src={require("./img/olxlogo.jpg")} alt="logo" className="olxLogo" />
       <div className="srcIcon">
         <img src={require("./img/search.png")} alt="" className="serchImg" />
-        <input type="text" name="" placeholder="Pakistan" className="pak" />
+        <input type="text" name="" placeholder="Pakistan" className="pak"  />
     
       </div>
       <div className="findContainer">
@@ -52,7 +52,7 @@ function App() {
     </div>
 
     <div className="ads">
-      <img src={require("./img/add1.png")} alt=""/>
+      <img src={require("./img/add1.png")} alt="" className='addsImg'/>
   
      
     </div>
@@ -60,11 +60,11 @@ function App() {
       <h2 className='recomHeading'>Fresh recommendations</h2>
     </div>
     <div class="sell">
-      <div class="sellContainer"><img src={require("./img/add2.png")} alt="add2"  /></div>
-      <div class="sellContainer"><img src={require("./img/add3.png")} alt="add3" /></div>
-      <div class="sellContainer"><img src={require("./img/add4.png")} alt="add4" /></div>
-      <div class="sellContainer"><img src={require("./img/add5.png")} alt="add5" /></div>
-      <div class="sellContainer"><img src={require("./img/add7.png")} alt="add7" /></div>
+      <div class="sellContainer"><img src={require("./img/add2.png")} alt="add2" style={{width: '100%'}} /></div>
+      <div class="sellContainer"><img src={require("./img/add3.png")} alt="add3" style={{width: '100%'}}/></div>
+      <div class="sellContainer"><img src={require("./img/add4.png")} alt="add4" style={{width: '100%'}}/></div>
+      <div class="sellContainer"><img src={require("./img/add5.png")} alt="add5"style={{width: '100%'}} /></div>
+      <div class="sellContainer"><img src={require("./img/add7.png")} alt="add7"style={{width: '100%'}} /></div>
       <div class="see sellContainer">
         <p class="fw-bolder">Want to see your stuff here?</p>
         <p class="fw-light">
@@ -73,29 +73,48 @@ function App() {
         </p>
         <button class="selling">start selling</button>
       </div>
-      <div className="sellContainer"><img src={require("./img/add8.png")} alt="add8" /></div>
-      <div className="sellContainer"><img src={require("./img/add9.png")} alt="add9" /></div>
-      <div className="sellContainer"><img src={require("./img/add10.png")} alt="add10" /></div>
-      <div className="sellContainer"><img src={require("./img/add11.png")} alt="add11" /></div>
-      <div className="sellContainer"><img src={require("./img/add12.png")} alt="add12" /></div>
-      <div className="sellContainer"><img src={require("./img/add13.png" )}alt="add13" /></div>
-      <div className="sellContainer"><img src={require("./img/add14.png")} alt="add14" /></div>
-      <div className="sellContainer"><img src={require("./img/add15.png")} alt="add15" /></div>
+      <div className="sellContainer"> <img src={require("./img/add9.png")} alt="add9" style={{width: '100%'}}/></div>
+      <div className="sellContainer">
+        <img src={require("./img/add9.png")} alt="add9" style={{width: '100%'}}/>
+        </div>
+      <div className="sellContainer">
+        <img src={require("./img/add10.png")} alt="add10" style={{width: '100%'}}/>
+        </div>
+      <div className="sellContainer"><img src={require("./img/add11.png")} alt="add11" style={{width: '100%',}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add12.png")} alt="add12" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add13.png" )}alt="add13" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add14.png")} alt="add14" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add15.png")} alt="add15" style={{width: '100%'}}/>
+      </div>
 
-      <div className="sellContainer"><img src={require("./img/add16.png")} alt="add16" /></div>
-      <div className="sellContainer"><img src={require("./img/add17.png")} alt="add17" /></div>
-      <div className="sellContainer"><img src={require("./img/add18.png")} alt="add18" /></div>
-      <div className="sellContainer"><img src={require("./img/add19.png")} alt="add19" /></div>
-      <div className="sellContainer"><img src={require("./img/add20.png")} alt="add20" /></div>
-      <div className="sellContainer"><img src={require("./img/add21.png")} alt="add21" /></div>
-      <div className="sellContainer"><img src={require("./img/add22.png")} alt="add22" /></div>
-      <div className="sellContainer"><img src={require("./img/add23.png")} alt="add23" /></div>
-      <div className="sellContainer"><img src={require("./img/add24.png")} alt="add24" /></div>
-      <div className="sellContainer"><img src={require("./img/add25.png")} alt="add25" /></div>
+      <div className="sellContainer"><img src={require("./img/add16.png")} alt="add16" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add17.png")} alt="add17" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add18.png")} alt="add18" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add19.png")} alt="add19" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add20.png")} alt="add20" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add21.png")} alt="add21" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add22.png")} alt="add22" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add23.png")} alt="add23" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add24.png")} alt="add24" style={{width: '100%'}}/>
+      </div>
+      <div className="sellContainer"><img src={require("./img/add25.png")} alt="add25" style={{width: '100%'}}/>
+      </div>
     </div>
     <div class="btn"><button class="btns">Load more</button></div>
     <div class="promote">
-      <div class="band"><img src={require("./img/promo.png")} alt="promo" /></div>
+      <div class="band"><img src={require("./img/promo.png")} alt="promo" style={{width: '100%'}}/></div>
       <div class="prom">
         <h3 class="fw-bold">TRY THE OLX APP</h3>
         <p class="promP">
