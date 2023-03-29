@@ -71,7 +71,7 @@
     display: flex;
     border: 1px solid black;
     width: 20%;
-  height: 4vw;
+    height: 3vw;
     margin-left: 3%;
     border: 2px solid black;
     border-radius: 4px;
@@ -80,6 +80,7 @@
 
 .pak{
     width: 40%;
+    
     font-size: 1vw;
     margin-left: -6%;
     border: 0px white;
@@ -90,7 +91,7 @@
     display: flex;
     margin-left: 17px;
    width: 50%;
-   height: 4vw;
+   height: 3vw;
       border: 2px solid black;
       border-radius: 5px;
     /* background-color: aqua; */
@@ -100,20 +101,21 @@
     background-color: rgb(12, 11, 11);
     /* height: 45%; */
     width: 7%;
+
   
 }
 .findInput{
      /* border: 2px solid black; */
     /* height: 45px; */
-    width: 100%;
+    width: 93%;
     font-size: 1vw;
     /* border-radius: 4px; */
     padding: 2%;
     /* background-color: #002f34; */
 }
 .findImg{
-    width: 54%;
-    margin: 22%;
+    width: 50%;
+    margin: 1vw;
 
 }
 .findContainer :focus{
@@ -311,7 +313,7 @@
     font-size: 1vw;
     width: 85%;
     height: 3vw;
-    
+    margin-top: 5vw;
     /* bottom: 20px;
     z-index: 2; */
     color: white;
@@ -327,7 +329,7 @@
 .btns{
     border: 2px solid rgb(46, 44, 44);
     border-radius: 3px;
-    width: 8%;
+    width: 9%;
     height: 8%;
     font-size: 1vw;
     /* font-weight: 300; */
@@ -392,7 +394,7 @@
 }
 .lower{
     width: 100%;
-    height: 15vw;
+    height: 40%;
         background-color:#ebeeef;
         display: flex;
         padding-top: 1%;
@@ -420,7 +422,7 @@
     }
     .lower-logo{
         margin-left: 1%;
-        margin-bottom: 25px;
+        margin-bottom: 31px;
         padding: 3px;
     }
     .text-muted{
@@ -440,13 +442,13 @@
     .footer{
         width: 100%;
         background-color: #002f34;
-        height: 50px;
+        height: 50%;
     }
     .footerheading{
         font-size: 1vw;
       
     padding-top: 15px;
-        padding-left: 75%;
+    padding-left: 77%;
     
         color: white;
     }
