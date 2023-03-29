@@ -29,7 +29,7 @@ function App() {
       </div>
       <div className="findContainer">
         <div className="findInput">Find Cars, Mobile Phones and more...</div>
-        <div className="findSearch"> <img src={require("./img/searchwhite.png")} alt="" width="40%" className="findImg"/> </div>
+        <div className="findSearch"> <imgg src={require("./img/searchwhite.png")} alt="" width="40%" className="findImg"/> </div>
       </div>
      
       <a href="/" class="login"> Login</a>
