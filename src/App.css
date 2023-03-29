@@ -71,7 +71,7 @@
     display: flex;
     border: 1px solid black;
     width: 20%;
-    height: 3vw;
+    height: 4vw;
     margin-left: 3%;
     border: 2px solid black;
     border-radius: 4px;
@@ -91,7 +91,7 @@
     display: flex;
     margin-left: 17px;
    width: 50%;
-   height: 3vw;
+   height: 4vw;
       border: 2px solid black;
       border-radius: 5px;
     /* background-color: aqua; */
@@ -313,7 +313,7 @@
     font-size: 1vw;
     width: 85%;
     height: 3vw;
-    margin-top: 5vw;
+    margin-top: 4vw;
     /* bottom: 20px;
     z-index: 2; */
     color: white;
