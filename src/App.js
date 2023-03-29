@@ -65,7 +65,7 @@ function App() {
       <div class="sellContainer"><img src={require("./img/add4.png")} alt="add4" style={{width: '100%'}}/></div>
       <div class="sellContainer"><img src={require("./img/add5.png")} alt="add5"style={{width: '100%'}} /></div>
       <div class="sellContainer"><img src={require("./img/add7.png")} alt="add7"style={{width: '100%'}} /></div>
-      <div class="see sellContainer">
+      <div class="see sellContainer" >
         <p class="fw-bolder">Want to see your stuff here?</p>
         <p class="fw-light">
           Make some extra cash by selling things in your community. Go on, it's

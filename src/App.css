@@ -278,7 +278,6 @@
     margin: 0px 1% 0px 1%;
     width: 22%;
     
-    /* background-color: aqua; */
 }
 /* .sellContainer img{
     width: 314px;
@@ -311,7 +310,9 @@
     font-size: 1vw;
     width: 85%;
     height: 3vw;
-    margin-top: 7vw;
+    
+    /* bottom: 20px;
+    z-index: 2; */
     color: white;
     border-radius: 3px;
     
